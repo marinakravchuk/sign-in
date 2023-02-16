@@ -1,0 +1,289 @@
+body {
+  font-family: "Signika", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  color: #ffffff;
+  padding-top: 131px;
+  padding-left: 123px;
+}
+.conteiner {
+  display: flex;
+  max-width: 1920px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.box_img {
+  max-width: 960px;
+  background: linear-gradient(31.22deg, #8c43e6 -8.43%, #ef8d6d 100%);
+}
+
+.login_img {
+  display: block;
+  max-width: 681px;
+  margin: 0 auto;
+  padding-bottom: 191px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.signIn {
+  min-width: 960px;
+}
+.content {
+  max-width: 716px;
+  padding-top: 44px;
+  padding-bottom: 433px;
+  margin: 0 auto;
+}
+
+.nav_list {
+  padding-top: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_back {
+  display: flex;
+  align-items: center;
+}
+.nav_arrow_left {
+  margin-right: 9px;
+}
+
+.nav_back_btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.nav_sign {
+  display: flex;
+  align-items: center;
+}
+
+.nav_inform {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #94969a;
+  padding-right: 5px;
+}
+
+.nav_signup {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #553bf1;
+}
+
+.login_soc {
+  padding-top: 112px;
+}
+
+.login_soc_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+  padding-bottom: 26px;
+}
+
+.login_soc_links {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 26px;
+}
+
+.login_soc_google,
+.login_soc_facebook {
+  cursor: pointer;
+  position: relative;
+  color: #ffffff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 346px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  transition: .5s;
+  background: linear-gradient(90deg, #f9af3a -12.59%, #de5f8f 114.44%);
+  box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
+  border-radius: 50px;
+  border: none;
+}
+
+.login_soc_google:hover,
+.login_soc_facebook:hover{
+  transform:scale(1.1);
+}
+
+input{
+  transition: .5s;
+}
+
+
+.input_lock{
+  transition: .5s;
+}
+
+.input_lock:hover,
+.input_lock:focus,
+.input_eye:hover,
+.input_eye:focus,
+.input_user:hover,
+.input_user:focus{
+  transform:scale(1.1);
+}
+
+input:hover,
+input:focus{
+  transform:scale(1.1);
+}
+
+.login_inform {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #94969a;
+  padding-bottom: 26px;
+}
+.back {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.login_form_content {
+  position: relative;
+}
+.login_form_box {
+  display: flex;
+   gap: 19px;
+  padding-bottom: 34px;
+}
+.login_soc_img {
+  position: absolute;
+  top: 13px;
+  left: 45px;
+}
+.login_soc_img_facebook{
+  position: absolute;
+  top: 13px;
+  left: 65px;
+}
+
+.login_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  padding-bottom: 12px;
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid #eaebf7;
+  border-radius: 50px;
+  padding: 19px 135px 19px 50px;
+
+  
+  max-width: 346px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.login_name{
+  position: relative;
+}
+.input_user{
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+.login_password{
+  position: relative;
+}
+.input_lock{
+  position: absolute;
+  top: 20%;
+  left: 54%;
+}
+.input_eye{
+  position: absolute;
+  top: 20%;
+  left: 92%;
+}
+
+.login_name::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #c0c3d0;
+}
+
+.fogort_p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #553bf1;
+}
+
+.form_inform {
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox {
+  margin-bottom: 34px;
+}
+
+.checkbox_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #94969a;
+}
+
+.login_form_btn {
+  display: flex;
+  align-items: center;
+  width: 346px;
+  background: linear-gradient(90deg, #893be6 -12.59%, #f19065 114.44%);
+  box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
+  border-radius: 50px;
+}
+
+.form_btn {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 18px;
+  padding-left: 131px;
+  padding-bottom: 18px;
+}
+.form_img {
+  max-width: 24px;
+  padding-right: 131px;
+}
+
+.copyright {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  position: absolute;
+  bottom: -170%;
+  left: 0;
+  color: #94969a;
+}
