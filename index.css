@@ -16,14 +16,16 @@ h1 {
 }
 .conteiner {
   display: flex;
-  max-width: 1920px;
+  max-width: 1600px;
   padding: 0 10px;
   margin: 0 auto;
+}
+.welcom{
+  background: linear-gradient(31.22deg, #8c43e6 -8.43%, #ef8d6d 100%);
 }
 
 .box_img {
   max-width: 960px;
-  background: linear-gradient(31.22deg, #8c43e6 -8.43%, #ef8d6d 100%);
 }
 
 .login_img {
@@ -59,6 +61,8 @@ h1 {
 }
 
 .nav_back_btn {
+  cursor: pointer;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -108,8 +112,8 @@ h1 {
   cursor: pointer;
   position: relative;
   color: #ffffff;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   width: 346px;
   text-align: center;
   font-weight: 500;
@@ -128,28 +132,18 @@ h1 {
   transform:scale(1.1);
 }
 
-input{
+.login_box,
+.login_box,
+.form_btn{
   transition: .5s;
 }
-
-
-.input_lock{
-  transition: .5s;
-}
-
-.input_lock:hover,
-.input_lock:focus,
-.input_eye:hover,
-.input_eye:focus,
-.input_user:hover,
-.input_user:focus{
+.form_btn:hover,
+.form_btn:focus,
+.login_box:hover,
+.login_box:focus{
   transform:scale(1.1);
 }
 
-input:hover,
-input:focus{
-  transform:scale(1.1);
-}
 
 .login_inform {
   font-weight: 500;
@@ -255,16 +249,15 @@ input {
   color: #94969a;
 }
 
-.login_form_btn {
+.form_btn{
+  cursor: pointer;
   display: flex;
   align-items: center;
   width: 346px;
   background: linear-gradient(90deg, #893be6 -12.59%, #f19065 114.44%);
   box-shadow: 0px 15px 50px rgba(222, 95, 143, 0.12);
   border-radius: 50px;
-}
 
-.form_btn {
   color: #ffffff;
   font-weight: 600;
   font-size: 16px;
@@ -272,10 +265,12 @@ input {
   padding-top: 18px;
   padding-left: 131px;
   padding-bottom: 18px;
+
+  border: none;
 }
+
 .form_img {
   max-width: 24px;
-  padding-right: 131px;
 }
 
 .copyright {
